@@ -14,41 +14,29 @@
         <input type="text" id="username" name="username" placeholder="username">
         <p id="userNameError" class="error"></p>
 
-
-
         <label for="email">Enter Your Email Address:</label>
         <input type="email" id="email" name="email" placeholder="email">
         <p id="EmailError" class="error"></p>
-
-
 
         <label for="password">Enter Your Password:</label>
         <input type="password" id="password" name="password" placeholder="password">
         <p id="PasswordError" class="error"></p>
 
-
-
         <label for="confirmPassword">Confirm Your Password:</label>
         <input type="password" id="confirmPassword" name="confirmPassword" placeholder="type password again">
-        <p id="confirmPassword" class="error" id="something"></p>
-        <p id="errorMessages" class="errorMessage"></p>
-
-
-
+        <p id="confirmPasswordError" class="error"></p>
 
         <label for="role">Role:</label>
         <select id="role" name="role">
             <option value="admin">Admin</option>
             <option value="user">User</option>
         </select>
-        <p></p>
 
+        <p id="errorMessages" class="errorMessage"></p>
+        <p id="successMessage" class="successMessage"></p>
 
         <button type="submit">Submit</button>
     </form>
-
-
-
 
     <script src="user-form.js"></script>
 </body>
